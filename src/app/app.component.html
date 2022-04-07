@@ -1,0 +1,10 @@
+<div class="App">
+  <section>
+    <nav role="navigation">
+        <button type="button" class="btn" (click)="handleShowDialog()">
+          Open Dialog
+        </button>
+    </nav>
+    <app-dialog [visible]="visible" (onClose)="handleCloseDialog()"></app-dialog>
+  </section>
+</div>
